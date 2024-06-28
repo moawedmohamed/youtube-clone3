@@ -1,0 +1,340 @@
+.upper{
+    top: 15px;
+    margin-top: -20px;
+    background-color: white;
+    padding-top: 10px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    z-index: 66666;
+    width: 100%;
+    height: 90px;
+    /* box-shadow: 0 4px 6px rgb(220, 214, 214); */
+}
+
+input{
+    background-color: white;
+    padding-bottom: -220px;
+    width: 400px;
+    height: 30px;
+    border-radius: 50px;
+    direction: rtl; 
+    padding-right: 10px;
+    border: 1px solid rgb(192, 190, 190);
+}
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    /* border-left: 1px solid gray;  */
+}
+.fa-magnifying-glass {
+    position: absolute;
+    right: 10px;
+    font-size: 18px;
+    color: gray; /* لون الأيقونة */
+    padding: 100px  370px;
+}
+.fa-microphone {
+    font-size: 15px;
+    order: -1; /* لضمان أن تكون هذه الأيقونة على اليسار */
+    margin-right: 10px;
+    background-color: rgb(239, 236, 236);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-keyboard{
+    position: absolute;
+    padding: 90px;
+
+}
+
+h5 {
+    top: 10px;
+    margin-top: 0px;
+    background-color: white;
+    position: fixed;
+    /* padding-top: 65px; */
+    /* margin-top: 60px; */
+    width: 30px; /* عرض العنصر */
+    height: 30px; /* ارتفاع العنصر */
+    background-color: #340fd8; /* لون الخلفية */
+    border-radius: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 88888;
+   /* position: fixed; */
+    /* padding-top: -350px; */
+    /* margin-bottom: -30px; */
+    display: inline flex;
+    align-items: center;
+    margin-bottom: 200px;
+}
+/* .upper-left i{
+  display: flex;
+  align-items: center;
+} */
+ .upper-left{
+    background-color: white;
+    /* position: fixed; */
+    margin-top: 250px;
+
+ }
+
+.icon-wrapper:hover {
+    background-color: rgb(218, 215, 215);
+    width: 30px;
+    height: 30px;
+}
+.icon-wrapper i {
+    font-size: 15px; /* حجم الأيقونة */
+}
+.upper-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f0f0f0; 
+    padding: 0 20px; /* Optional padding */
+  
+}
+.upper-right {
+    margin-right: -0px;
+    margin-top: -220px;
+    display: flex;
+    justify-content: flex-end; /* Align items to the end (right side) */
+    align-items: center; /* Center items vertically */
+    height: 50px; /* Adjust height as needed */
+    /* background-color: #f0f0f0; Optional background color for navigation */
+    padding: 0 20px; /* Optional padding */
+}
+.fa-youtube{
+    font-size: 25px;
+}
+.youtube {
+    margin-top: -60px;
+    margin-left: 1500px;
+    top: 17px;
+    position: fixed;
+    padding-top: 35px;
+    color: red;
+    display: flex;
+    justify-content: end;
+    align-items: center; /* Center items vertically */
+}
+
+.youtube p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 00px; /* Adjust margin between icon and text */
+    font-size: 16px; /* Adjust font size of text */
+}
+
+.bars {
+    top: -100;
+    color: black;
+    margin-left: 10px; /* Adjust margin between YouTube icon and Bars icon */
+}
+
+.ali p {
+    color: white;
+    margin-top: 300px;
+
+}
+.paragraph p{
+    font-size: 30px;
+    padding: -12px;
+    top: 20px;
+    pointer-events: auto;
+    margin: 0 0 0 0 ; 
+    margin-bottom: 0px;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 5px;
+    padding: 3px;
+}
+.paragraph{
+    top: 50;
+        /* box-shadow: 0 4px 6px rgb(220, 214, 214); */
+        /* width: 100%; */
+    /* background-color: white; */
+    margin-top: 60px;
+    padding-top: -100px;
+    position: fixed;
+    pointer-events: none;
+    margin-left: 400px;
+}
+.paragraph p:hover {
+    background-color: rgb(216, 213, 213)
+}
+.right-side { 
+    margin-top: 70px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 28px;
+    width: 50%px;
+    height: 50%px;
+    margin-right: 80px;
+      /* height: 100vh; */
+
+}
+.photo {
+    margin-bottom: -200px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* توزيع الفيديوهات بالتساوي في العرض المتاح */
+    gap: 5px; /* مسافة بين الفيديوهات */
+    margin-top: auto; /* بدء الفيديوهات من أسفل */
+    padding: 0px;
+    box-sizing: border-box; /* لضمان أن الحشو لا يزيد من عرض العناصر */   
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh;  */
+    margin-bottom: 10px;
+    /* position: relative; لإتاحة وضع الفقرة في الأسفل */
+}
+ .photo iframe {
+    margin-top: -200px;
+    border-radius: 15px;
+    width: 340px;
+    height: 200px;
+    margin-right: 60px;
+    /* padding: -20px; */
+    margin: 0;
+}
+.po {
+    margin-left: 180px;    
+    font-size: 10px;
+    /* margin-bottom: 300px; */
+    margin-top: -20px;
+}
+.photo iframe:hover{
+    border-radius: 0px;
+}
+.photo img {
+    border-radius: 50%; 
+    width: 34px; 
+    height: 34px; 
+    object-fit: cover; 
+    margin-top: -50px;
+    margin-left: 290px;
+    margin-bottom: 1px;
+}
+.mohamed img{
+    margin-bottom: -20px;
+
+}
+.ahmed{
+    font-size: 15px;
+
+    margin-top: -30px;
+    margin-left: 60px;
+    width: 300px;
+    color: black; 
+    /* position: absolute; */
+    bottom: 0;
+}
+.house {
+    text-align: right; /* محاذاة محتوى داخل .house إلى اليمين */
+    margin-top: -1150px;
+    margin-right: 200px;
+}
+.item i{
+    margin-left: 55px;
+}
+.item{
+    margin-top:90px;
+    position: fixed;
+    margin-right: -1500px;
+    margin-left: -10px;
+    /* margin-right: 50px; */
+}
+.house.item:hover{
+    background-color: rgb(233, 227, 227);
+    
+}
+.item div{
+    font-size: 10px;
+    margin-right: -20px;
+    margin-left: 36px;
+    margin-top: 10px;
+}
+.house {
+    margin-top: 10px;
+    /* position: fixed; */
+    font-size: 12px;
+    list-style-type: none; 
+    padding: 0;
+    margin-top: 30px;
+    margin-right: 5px;
+    z-index: 888;
+}
+.house  p {  
+    margin-top: 10px;                                 
+    font-size: 10px;
+    /* margin-bottom: -90px; */
+}
+.house p:hover{
+    background-color: rgb(212, 209, 209);
+} 
+.house img:hover{
+    background-color:rgb(227, 218, 218);
+}
+.house {
+   
+     display: flex;
+    flex-direction: column; /* يجعل العناصر عمودية */
+    gap: -20px; /* المسافة بين كل عنصر */
+    position: fixed;
+    top: 50px;
+    right: 10px; /* تعديل الموضع إلى اليمين */
+    align-items: flex-end; /* محاذاة العناصر إلى الجانب الأيمن */
+    
+}
+/*  */
+.house img {
+    gap: -10px;
+    margin-top: 50px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 0px; /* تعديل المسافة بين كل صورة */
+}
+.house img:last-child {
+    margin-bottom: 0; /* إزالة المسافة السفلية من العنصر الأخير */
+}
+
+/*  */
+.bell {
+    margin-top: -30px;
+    position: fixed;
+    top: 40px; /* تعديل هذه القيم لتحديد مكان العنصر */
+    left: 50px;
+    padding-left: 2px;
+}
+.bell i{
+    padding: 10px;
+    gap: 20px;
+}
+.bell i:hover{
+    width: 15px;
+    height:15px;
+    background-color:  rgb(239, 236, 236);
+    border-radius: 50px;
+}
